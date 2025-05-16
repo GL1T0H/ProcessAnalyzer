@@ -2,6 +2,10 @@
 
 PowerShell script for detailed process analysis, including network connections, file hashes, and threat intelligence.
 
+![image](https://github.com/user-attachments/assets/a89fd1ea-6eec-4edb-a1c5-47cd741c6d0b)
+![image](https://github.com/user-attachments/assets/bc0b61e4-58de-424b-a0cd-77c933781054)
+
+
 ## Features
 - Analyzes process by ID or name
 - Retrieves process details: path, hash, parent process, user, and command line
