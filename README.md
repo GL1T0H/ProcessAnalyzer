@@ -19,25 +19,27 @@ PowerShell script for detailed process analysis, including network connections, 
 
 ## Usage
 .\ProcessAnalyzer.ps1 -ProcessId <ID> [-ExportHtml]
+
 .\ProcessAnalyzer.ps1 -ProcessName <Name> [-ExportHtml]
 
 ## Setup
 1. Clone the repository:
-<git clone https://github.com/<your-username>/ProcessAnalyzer.git>
+git clone <https://github.com/GL1T0H/ProcessAnalyzer.git>
 
-2. Update API keys and Telegram settings in the script:
+3. Update API keys and Telegram settings in the script:
 
-$TelegramBotToken = "YOUR_TELEGRAM_BOT_TOKEN"
-$TelegramChatID = "YOUR_CHAT_ID"
-$AbuseIPDBApiKey = "YOUR_ABUSEIPDB_API_KEY"
-$VirusTotalApiKey = "YOUR_VIRUSTOTAL_API_KEY"
+- $TelegramBotToken = "YOUR_TELEGRAM_BOT_TOKEN"
+- $TelegramChatID = "YOUR_CHAT_ID"
+- $AbuseIPDBApiKey = "YOUR_ABUSEIPDB_API_KEY"
+- $VirusTotalApiKey = "YOUR_VIRUSTOTAL_API_KEY"
 
 3. Run the script with appropriate parameters.
 
 ## Example
 
-.\ProcessAnalyzer.ps1 -ProcessId 1234 -ExportHtml
-.\ProcessAnalyzer.ps1 -ProcessName notepad
+```.\ProcessAnalyzer.ps1 -ProcessId 1234 -ExportHtml```
+
+```.\ProcessAnalyzer.ps1 -ProcessName notepad```
 
 ## Output
 - Telegram message with formatted report
